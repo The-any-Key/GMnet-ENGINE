@@ -55,6 +55,12 @@ self.udphp_master_port = 6510;
 self.udphp_provide_server_port=true;
 
 /** 
+ * Setup the portforward on the router using upnp
+ * @type boolean
+ */
+self.upnp_enabled = false;
+
+/** 
  * WHEN USING GMnet PUNCH:
  * The server should reconnect to the master server every x steps.
  * The server will only reconnect if it's no longer connected.
