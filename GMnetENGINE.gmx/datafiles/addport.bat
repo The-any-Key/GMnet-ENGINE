@@ -1,0 +1,1 @@
+java -jar portmapper.jar -add -description GameMakerStudio -externalPort %1 -internalPort %1 -protocol udp

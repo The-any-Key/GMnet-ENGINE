@@ -1,0 +1,1 @@
+java -jar portmapper.jar -delete -externalPort %1 -protocol udp
